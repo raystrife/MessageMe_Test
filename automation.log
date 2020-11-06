@@ -3718,3 +3718,440 @@
 11/06/2020 05:19:45 PM -TestStatus - INFO: ### VERIFICATION SUCCESSFUL :: + The success message is closed successfully
 11/06/2020 05:19:45 PM -TestStatus - INFO: test_logOut ### TEST SUCCESSFUL
 11/06/2020 05:19:45 PM -Util - INFO: Wait :: '2' seconds for 
+11/06/2020 05:27:49 PM -SignupPage - INFO: Element Found with locator: //div[@class='ui big button'] locatorType: xpath
+11/06/2020 05:27:49 PM -SignupPage - INFO: Clicked on element with locator: //div[@class='ui big button'] locatorType: xpath
+11/06/2020 05:27:49 PM -SignupPage - INFO: Element Found with locator: //h1[contains(text(),'Sign up to MessageMe')] locatorType: xpath
+11/06/2020 05:27:49 PM -SignupPage - INFO: Element present with locator: //h1[contains(text(),'Sign up to MessageMe')] locatorType: xpath
+11/06/2020 05:27:49 PM -TestStatus - INFO: ### VERIFICATION SUCCESSFUL :: + Successfully navigate to the Sign Up page
+11/06/2020 05:27:49 PM -TestStatus - INFO: test_navigateSignupPage ### TEST SUCCESSFUL
+11/06/2020 05:27:49 PM -Util - INFO: Wait :: '2' seconds for 
+11/06/2020 05:27:51 PM -SignupPage - INFO: Element Found with locator: //input[@id='user_username'] locatorType: xpath
+11/06/2020 05:27:51 PM -SignupPage - INFO: Clicked on element with locator: //input[@id='user_username'] locatorType: xpath
+11/06/2020 05:27:51 PM -SignupPage - INFO: Element Found with locator: //input[@id='user_password'] locatorType: xpath
+11/06/2020 05:27:51 PM -SignupPage - INFO: Clicked on element with locator: //input[@id='user_password'] locatorType: xpath
+11/06/2020 05:27:51 PM -SignupPage - INFO: Element Found with locator: //input[@id='user_password_confirmation'] locatorType: xpath
+11/06/2020 05:27:51 PM -SignupPage - INFO: Clicked on element with locator: //input[@id='user_password_confirmation'] locatorType: xpath
+11/06/2020 05:27:51 PM -SignupPage - INFO: Element Found with locator: //input[@name='commit'] locatorType: xpath
+11/06/2020 05:27:52 PM -SignupPage - INFO: Clicked on element with locator: //input[@name='commit'] locatorType: xpath
+11/06/2020 05:27:52 PM -SignupPage - INFO: Element Found with locator: //div[contains(text(),'There was something wrong with your signup information')] locatorType: xpath
+11/06/2020 05:27:52 PM -SignupPage - INFO: Element present with locator: //div[contains(text(),'There was something wrong with your signup information')] locatorType: xpath
+11/06/2020 05:27:52 PM -TestStatus - INFO: ### VERIFICATION SUCCESSFUL :: + As expected: an user can't create an existing account
+11/06/2020 05:27:52 PM -Util - INFO: Wait :: '1' seconds for 
+11/06/2020 05:27:53 PM -SignupPage - INFO: Element Found with locator: //i[@class='close icon'] locatorType: xpath
+11/06/2020 05:27:53 PM -SignupPage - INFO: Clicked on element with locator: //i[@class='close icon'] locatorType: xpath
+11/06/2020 05:27:53 PM -SignupPage - INFO: Element Found with locator: //div[@class='ui error message transition hidden'] locatorType: xpath
+11/06/2020 05:27:53 PM -SignupPage - INFO: Element present with locator: //div[@class='ui error message transition hidden'] locatorType: xpath
+11/06/2020 05:27:53 PM -TestStatus - INFO: ### VERIFICATION SUCCESSFUL :: + The error message is closed successfully
+11/06/2020 05:27:53 PM -TestStatus - INFO: test_createExistingAccount ### TEST SUCCESSFUL
+11/06/2020 05:27:53 PM -SignupPage - INFO: Element Found with locator: //input[@id='user_username'] locatorType: xpath
+11/06/2020 05:27:53 PM -SignupPage - INFO: Element Found with locator: //input[@id='user_password'] locatorType: xpath
+11/06/2020 05:27:54 PM -SignupPage - INFO: Element Found with locator: //input[@id='user_password_confirmation'] locatorType: xpath
+11/06/2020 05:27:54 PM -Util - INFO: Wait :: '2' seconds for 
+11/06/2020 05:27:56 PM -SignupPage - INFO: Element Found with locator: //input[@name='commit'] locatorType: xpath
+11/06/2020 05:27:56 PM -SignupPage - INFO: Clicked on element with locator: //input[@name='commit'] locatorType: xpath
+11/06/2020 05:27:56 PM -SignupPage - INFO: Element Found with locator: //div[contains(text(),'There was something wrong with your signup information')] locatorType: xpath
+11/06/2020 05:27:56 PM -SignupPage - INFO: Element present with locator: //div[contains(text(),'There was something wrong with your signup information')] locatorType: xpath
+11/06/2020 05:27:56 PM -TestStatus - INFO: ### VERIFICATION SUCCESSFUL :: + As expected: an user can't signup with empty username and password
+11/06/2020 05:27:56 PM -Util - INFO: Wait :: '1' seconds for 
+11/06/2020 05:27:57 PM -SignupPage - INFO: Element Found with locator: //i[@class='close icon'] locatorType: xpath
+11/06/2020 05:27:57 PM -SignupPage - INFO: Clicked on element with locator: //i[@class='close icon'] locatorType: xpath
+11/06/2020 05:27:57 PM -SignupPage - INFO: Element Found with locator: //div[@class='ui error message transition hidden'] locatorType: xpath
+11/06/2020 05:27:57 PM -SignupPage - INFO: Element present with locator: //div[@class='ui error message transition hidden'] locatorType: xpath
+11/06/2020 05:27:57 PM -TestStatus - INFO: ### VERIFICATION SUCCESSFUL :: + The error message is closed successfully
+11/06/2020 05:27:57 PM -TestStatus - INFO: test_signupAllEmpty ### TEST SUCCESSFUL
+11/06/2020 05:27:57 PM -SignupPage - INFO: Element Found with locator: //input[@id='user_username'] locatorType: xpath
+11/06/2020 05:27:57 PM -SignupPage - INFO: Element Found with locator: //input[@id='user_password'] locatorType: xpath
+11/06/2020 05:27:57 PM -SignupPage - INFO: Element Found with locator: //input[@id='user_password_confirmation'] locatorType: xpath
+11/06/2020 05:27:57 PM -Util - INFO: Wait :: '2' seconds for 
+11/06/2020 05:27:59 PM -SignupPage - INFO: Element Found with locator: //input[@id='user_username'] locatorType: xpath
+11/06/2020 05:28:00 PM -SignupPage - INFO: Clicked on element with locator: //input[@id='user_username'] locatorType: xpath
+11/06/2020 05:28:00 PM -SignupPage - INFO: Element Found with locator: //input[@id='user_password'] locatorType: xpath
+11/06/2020 05:28:00 PM -SignupPage - INFO: Clicked on element with locator: //input[@id='user_password'] locatorType: xpath
+11/06/2020 05:28:00 PM -SignupPage - INFO: Element Found with locator: //input[@id='user_password_confirmation'] locatorType: xpath
+11/06/2020 05:28:00 PM -SignupPage - INFO: Clicked on element with locator: //input[@id='user_password_confirmation'] locatorType: xpath
+11/06/2020 05:28:00 PM -SignupPage - INFO: Element Found with locator: //input[@name='commit'] locatorType: xpath
+11/06/2020 05:28:00 PM -SignupPage - INFO: Clicked on element with locator: //input[@name='commit'] locatorType: xpath
+11/06/2020 05:28:00 PM -SignupPage - INFO: Element Found with locator: //div[contains(text(),'There was something wrong with your signup information')] locatorType: xpath
+11/06/2020 05:28:00 PM -SignupPage - INFO: Element present with locator: //div[contains(text(),'There was something wrong with your signup information')] locatorType: xpath
+11/06/2020 05:28:00 PM -TestStatus - INFO: ### VERIFICATION SUCCESSFUL :: + As expected: an user can't signup with empty username
+11/06/2020 05:28:00 PM -Util - INFO: Wait :: '1' seconds for 
+11/06/2020 05:28:01 PM -SignupPage - INFO: Element Found with locator: //i[@class='close icon'] locatorType: xpath
+11/06/2020 05:28:01 PM -SignupPage - INFO: Clicked on element with locator: //i[@class='close icon'] locatorType: xpath
+11/06/2020 05:28:02 PM -SignupPage - INFO: Element Found with locator: //div[@class='ui error message transition hidden'] locatorType: xpath
+11/06/2020 05:28:02 PM -SignupPage - INFO: Element present with locator: //div[@class='ui error message transition hidden'] locatorType: xpath
+11/06/2020 05:28:02 PM -TestStatus - INFO: ### VERIFICATION SUCCESSFUL :: + The error message is closed successfully
+11/06/2020 05:28:02 PM -SignupPage - INFO: Element Found with locator: //input[@id='user_username'] locatorType: xpath
+11/06/2020 05:28:02 PM -SignupPage - INFO: Element Found with locator: //input[@id='user_password'] locatorType: xpath
+11/06/2020 05:28:02 PM -SignupPage - INFO: Element Found with locator: //input[@id='user_password_confirmation'] locatorType: xpath
+11/06/2020 05:28:02 PM -Util - INFO: Wait :: '1' seconds for 
+11/06/2020 05:28:03 PM -SignupPage - INFO: Element Found with locator: //input[@id='user_username'] locatorType: xpath
+11/06/2020 05:28:03 PM -SignupPage - INFO: Clicked on element with locator: //input[@id='user_username'] locatorType: xpath
+11/06/2020 05:28:03 PM -SignupPage - INFO: Element Found with locator: //input[@id='user_password'] locatorType: xpath
+11/06/2020 05:28:03 PM -SignupPage - INFO: Clicked on element with locator: //input[@id='user_password'] locatorType: xpath
+11/06/2020 05:28:03 PM -SignupPage - INFO: Element Found with locator: //input[@id='user_password_confirmation'] locatorType: xpath
+11/06/2020 05:28:03 PM -SignupPage - INFO: Clicked on element with locator: //input[@id='user_password_confirmation'] locatorType: xpath
+11/06/2020 05:28:03 PM -SignupPage - INFO: Element Found with locator: //input[@name='commit'] locatorType: xpath
+11/06/2020 05:28:03 PM -SignupPage - INFO: Clicked on element with locator: //input[@name='commit'] locatorType: xpath
+11/06/2020 05:28:03 PM -SignupPage - INFO: Element Found with locator: //div[contains(text(),'There was something wrong with your signup information')] locatorType: xpath
+11/06/2020 05:28:03 PM -SignupPage - INFO: Element present with locator: //div[contains(text(),'There was something wrong with your signup information')] locatorType: xpath
+11/06/2020 05:28:03 PM -TestStatus - INFO: ### VERIFICATION SUCCESSFUL :: + As expected: an user can't signup with empty password
+11/06/2020 05:28:03 PM -Util - INFO: Wait :: '1' seconds for 
+11/06/2020 05:28:04 PM -SignupPage - INFO: Element Found with locator: //i[@class='close icon'] locatorType: xpath
+11/06/2020 05:28:04 PM -SignupPage - INFO: Clicked on element with locator: //i[@class='close icon'] locatorType: xpath
+11/06/2020 05:28:05 PM -SignupPage - INFO: Element Found with locator: //div[@class='ui error message transition hidden'] locatorType: xpath
+11/06/2020 05:28:05 PM -SignupPage - INFO: Element present with locator: //div[@class='ui error message transition hidden'] locatorType: xpath
+11/06/2020 05:28:05 PM -TestStatus - INFO: ### VERIFICATION SUCCESSFUL :: + The error message is closed successfully
+11/06/2020 05:28:05 PM -TestStatus - INFO: test_signupOneEmpty ### TEST SUCCESSFUL
+11/06/2020 05:28:05 PM -SignupPage - INFO: Element Found with locator: //input[@id='user_username'] locatorType: xpath
+11/06/2020 05:28:05 PM -SignupPage - INFO: Element Found with locator: //input[@id='user_password'] locatorType: xpath
+11/06/2020 05:28:05 PM -SignupPage - INFO: Element Found with locator: //input[@id='user_password_confirmation'] locatorType: xpath
+11/06/2020 05:28:05 PM -Util - INFO: Wait :: '2' seconds for 
+11/06/2020 05:28:07 PM -SignupPage - INFO: Element Found with locator: //input[@id='user_username'] locatorType: xpath
+11/06/2020 05:28:07 PM -SignupPage - INFO: Clicked on element with locator: //input[@id='user_username'] locatorType: xpath
+11/06/2020 05:28:07 PM -SignupPage - INFO: Element Found with locator: //input[@id='user_password'] locatorType: xpath
+11/06/2020 05:28:07 PM -SignupPage - INFO: Clicked on element with locator: //input[@id='user_password'] locatorType: xpath
+11/06/2020 05:28:07 PM -SignupPage - INFO: Element Found with locator: //input[@id='user_password_confirmation'] locatorType: xpath
+11/06/2020 05:28:07 PM -SignupPage - INFO: Clicked on element with locator: //input[@id='user_password_confirmation'] locatorType: xpath
+11/06/2020 05:28:07 PM -SignupPage - INFO: Element Found with locator: //input[@name='commit'] locatorType: xpath
+11/06/2020 05:28:08 PM -SignupPage - INFO: Clicked on element with locator: //input[@name='commit'] locatorType: xpath
+11/06/2020 05:28:08 PM -SignupPage - INFO: Element Found with locator: //div[contains(text(),'There was something wrong with your signup information')] locatorType: xpath
+11/06/2020 05:28:08 PM -SignupPage - INFO: Element present with locator: //div[contains(text(),'There was something wrong with your signup information')] locatorType: xpath
+11/06/2020 05:28:08 PM -TestStatus - INFO: ### VERIFICATION SUCCESSFUL :: + As expected: an user can't signup with false password confirmation
+11/06/2020 05:28:08 PM -Util - INFO: Wait :: '1' seconds for 
+11/06/2020 05:28:09 PM -SignupPage - INFO: Element Found with locator: //i[@class='close icon'] locatorType: xpath
+11/06/2020 05:28:09 PM -SignupPage - INFO: Clicked on element with locator: //i[@class='close icon'] locatorType: xpath
+11/06/2020 05:28:09 PM -SignupPage - INFO: Element Found with locator: //div[@class='ui error message transition hidden'] locatorType: xpath
+11/06/2020 05:28:09 PM -SignupPage - INFO: Element present with locator: //div[@class='ui error message transition hidden'] locatorType: xpath
+11/06/2020 05:28:09 PM -TestStatus - INFO: ### VERIFICATION SUCCESSFUL :: + The error message is closed successfully
+11/06/2020 05:28:09 PM -TestStatus - INFO: test_signupFalseConfirmation ### TEST SUCCESSFUL
+11/06/2020 05:28:09 PM -SignupPage - INFO: Element Found with locator: //input[@id='user_username'] locatorType: xpath
+11/06/2020 05:28:09 PM -SignupPage - INFO: Element Found with locator: //input[@id='user_password'] locatorType: xpath
+11/06/2020 05:28:09 PM -SignupPage - INFO: Element Found with locator: //input[@id='user_password_confirmation'] locatorType: xpath
+11/06/2020 05:28:09 PM -Util - INFO: Wait :: '2' seconds for 
+11/06/2020 05:28:11 PM -Util - INFO: Wait :: '1' seconds for 
+11/06/2020 05:28:12 PM -SignupPage - INFO: Element Found with locator: //input[@id='user_username'] locatorType: xpath
+11/06/2020 05:28:13 PM -SignupPage - INFO: Clicked on element with locator: //input[@id='user_username'] locatorType: xpath
+11/06/2020 05:28:13 PM -SignupPage - INFO: Element Found with locator: //input[@id='user_password'] locatorType: xpath
+11/06/2020 05:28:13 PM -SignupPage - INFO: Clicked on element with locator: //input[@id='user_password'] locatorType: xpath
+11/06/2020 05:28:13 PM -SignupPage - INFO: Element Found with locator: //input[@id='user_password_confirmation'] locatorType: xpath
+11/06/2020 05:28:13 PM -SignupPage - INFO: Clicked on element with locator: //input[@id='user_password_confirmation'] locatorType: xpath
+11/06/2020 05:28:13 PM -SignupPage - INFO: Element Found with locator: //input[@name='commit'] locatorType: xpath
+11/06/2020 05:28:13 PM -SignupPage - INFO: Clicked on element with locator: //input[@name='commit'] locatorType: xpath
+11/06/2020 05:28:13 PM -SignupPage - INFO: Element Found with locator: //h1[contains(text(), 'Welcome to MessageMe - a complete Chat App')] locatorType: xpath
+11/06/2020 05:28:13 PM -SignupPage - INFO: Element present with locator: //h1[contains(text(), 'Welcome to MessageMe - a complete Chat App')] locatorType: xpath
+11/06/2020 05:28:13 PM -SignupPage - INFO: Element Found with locator: //div[contains(text(), 'Welcome, test4999553525! Please login to enter the chatroom!')] locatorType: xpath
+11/06/2020 05:28:13 PM -SignupPage - INFO: Element present with locator: //div[contains(text(), 'Welcome, test4999553525! Please login to enter the chatroom!')] locatorType: xpath
+11/06/2020 05:28:13 PM -TestStatus - INFO: ### VERIFICATION SUCCESSFUL :: + User successfully creates an account
+11/06/2020 05:28:13 PM -Util - INFO: Wait :: '1' seconds for 
+11/06/2020 05:28:14 PM -SignupPage - INFO: Element Found with locator: //i[@class='close icon'] locatorType: xpath
+11/06/2020 05:28:14 PM -SignupPage - INFO: Clicked on element with locator: //i[@class='close icon'] locatorType: xpath
+11/06/2020 05:28:15 PM -SignupPage - INFO: Element Found with locator: //div[@class='ui success message transition hidden'] locatorType: xpath
+11/06/2020 05:28:15 PM -SignupPage - INFO: Element present with locator: //div[@class='ui success message transition hidden'] locatorType: xpath
+11/06/2020 05:28:15 PM -TestStatus - INFO: ### VERIFICATION SUCCESSFUL :: + The error message is closed successfully
+11/06/2020 05:28:15 PM -TestStatus - INFO: test_signupFalseConfirmation ### TEST SUCCESSFUL
+11/06/2020 05:28:15 PM -Util - INFO: Wait :: '2' seconds for 
+11/06/2020 05:28:17 PM -SignupPage - INFO: Element Found with locator: //div[@class='ui big button'] locatorType: xpath
+11/06/2020 05:28:17 PM -SignupPage - INFO: Clicked on element with locator: //div[@class='ui big button'] locatorType: xpath
+11/06/2020 05:28:17 PM -Util - INFO: Wait :: '1' seconds for 
+11/06/2020 05:28:18 PM -SignupPage - INFO: Element Found with locator: //a[@class='text-info'] locatorType: xpath
+11/06/2020 05:28:18 PM -SignupPage - INFO: Clicked on element with locator: //a[@class='text-info'] locatorType: xpath
+11/06/2020 05:28:18 PM -SignupPage - INFO: Element Found with locator: //h1[contains(text(), 'Welcome to MessageMe - a complete Chat App')] locatorType: xpath
+11/06/2020 05:28:18 PM -SignupPage - INFO: Element present with locator: //h1[contains(text(), 'Welcome to MessageMe - a complete Chat App')] locatorType: xpath
+11/06/2020 05:28:18 PM -TestStatus - INFO: ### VERIFICATION SUCCESSFUL :: + Successfully return to the home page
+11/06/2020 05:28:18 PM -TestStatus - INFO: test_signupSuccess ### TEST SUCCESSFUL
+11/06/2020 05:28:18 PM -Util - INFO: Wait :: '2' seconds for 
+11/06/2020 05:28:20 PM -SignupPage - INFO: Element Found with locator: //div[@class='ui big button'] locatorType: xpath
+11/06/2020 05:28:20 PM -SignupPage - INFO: Clicked on element with locator: //div[@class='ui big button'] locatorType: xpath
+11/06/2020 05:28:20 PM -Util - INFO: Wait :: '1' seconds for 
+11/06/2020 05:28:21 PM -SignupPage - INFO: Element Found with locator: //a[@class='ui primary button'] locatorType: xpath
+11/06/2020 05:28:21 PM -SignupPage - INFO: Clicked on element with locator: //a[@class='ui primary button'] locatorType: xpath
+11/06/2020 05:28:21 PM -SignupPage - INFO: Element Found with locator: //h1[contains(text(), 'Welcome to MessageMe - a complete Chat App')] locatorType: xpath
+11/06/2020 05:28:21 PM -SignupPage - INFO: Element present with locator: //h1[contains(text(), 'Welcome to MessageMe - a complete Chat App')] locatorType: xpath
+11/06/2020 05:28:21 PM -TestStatus - INFO: ### VERIFICATION SUCCESSFUL :: + Successfully return to login page by using login navigation link
+11/06/2020 05:28:21 PM -SignupPage - INFO: Element Found with locator: //div[@class='ui big button'] locatorType: xpath
+11/06/2020 05:28:21 PM -SignupPage - INFO: Clicked on element with locator: //div[@class='ui big button'] locatorType: xpath
+11/06/2020 05:28:21 PM -Util - INFO: Wait :: '1' seconds for 
+11/06/2020 05:28:22 PM -SignupPage - INFO: Element Found with locator: //div[@class='ui dropdown item'] locatorType: xpath
+11/06/2020 05:28:22 PM -SignupPage - INFO: Clicked on element with locator: //div[@class='ui dropdown item'] locatorType: xpath
+11/06/2020 05:28:22 PM -SignupPage - INFO: Element Found with locator: //div[@class='menu transition visible'] locatorType: xpath
+11/06/2020 05:28:22 PM -SignupPage - INFO: Element present with locator: //div[@class='menu transition visible'] locatorType: xpath
+11/06/2020 05:28:22 PM -TestStatus - INFO: ### VERIFICATION SUCCESSFUL :: + Account dropdown menu is visible after click
+11/06/2020 05:28:23 PM -SignupPage - INFO: Element Found with locator: //div[@class='menu transition visible']//a[@class='item'] locatorType: xpath
+11/06/2020 05:28:23 PM -SignupPage - INFO: Clicked on element with locator: //div[@class='menu transition visible']//a[@class='item'] locatorType: xpath
+11/06/2020 05:28:23 PM -SignupPage - INFO: Element Found with locator: //h1[contains(text(), 'Welcome to MessageMe - a complete Chat App')] locatorType: xpath
+11/06/2020 05:28:23 PM -SignupPage - INFO: Element present with locator: //h1[contains(text(), 'Welcome to MessageMe - a complete Chat App')] locatorType: xpath
+11/06/2020 05:28:23 PM -TestStatus - INFO: ### VERIFICATION SUCCESSFUL :: + Successfully return to login page by using login link under account dropdown
+11/06/2020 05:28:23 PM -TestStatus - INFO: test_useLoginNavigationLinks ### TEST SUCCESSFUL
+11/06/2020 05:28:23 PM -Util - INFO: Wait :: '2' seconds for 
+11/06/2020 05:28:25 PM -SignupPage - INFO: Element Found with locator: //div[@class='ui big button'] locatorType: xpath
+11/06/2020 05:28:25 PM -SignupPage - INFO: Clicked on element with locator: //div[@class='ui big button'] locatorType: xpath
+11/06/2020 05:28:25 PM -Util - INFO: Wait :: '1' seconds for 
+11/06/2020 05:28:26 PM -SignupPage - INFO: Element Found with locator: //a[@class='active item'] locatorType: xpath
+11/06/2020 05:28:26 PM -SignupPage - INFO: Clicked on element with locator: //a[@class='active item'] locatorType: xpath
+11/06/2020 05:28:29 PM -SignupPage - INFO: Element not found with locator//h1[contains(text(), 'Welcome to MessageMe - a complete Chat App')] locatorType: xpath
+11/06/2020 05:28:29 PM -SignupPage - INFO: Element not present with locator: //h1[contains(text(), 'Welcome to MessageMe - a complete Chat App')] locatorType: xpath
+11/06/2020 05:28:29 PM -TestStatus - ERROR: ### VERIFICATION FAILED :: + Successfully return to login page when the user is not logged in
+11/06/2020 05:28:29 PM -TestStatus - INFO: Screenshot save to directory: C:\Users\rayad\workspace_python\MessageMe_Test\base\../screenshots/Successfully return to login page when the user is not logged in.1604701709297.png
+11/06/2020 05:28:32 PM -SignupPage - INFO: Element not found with locator//div[contains(text(),'You need to log in to access the chatroom')] locatorType: xpath
+11/06/2020 05:28:32 PM -SignupPage - INFO: Element not present with locator: //div[contains(text(),'You need to log in to access the chatroom')] locatorType: xpath
+11/06/2020 05:28:32 PM -TestStatus - ERROR: ### VERIFICATION FAILED :: + Error message shows up because the user is not logged in
+11/06/2020 05:28:33 PM -TestStatus - INFO: Screenshot save to directory: C:\Users\rayad\workspace_python\MessageMe_Test\base\../screenshots/Error message shows up because the user is not logged in.1604701712682.png
+11/06/2020 05:28:33 PM -TestStatus - ERROR: test_useChatroomLink ### TEST FAILED
+11/06/2020 05:28:36 PM -SignupPage - INFO: Element not found with locator//div[@class='ui big button'] locatorType: xpath
+11/06/2020 05:28:36 PM -SignupPage - INFO: Cannot click on the element with locator: //div[@class='ui big button'] locatorType: xpath
+11/06/2020 05:28:36 PM -Util - INFO: Wait :: '1' seconds for 
+11/06/2020 05:28:37 PM -SignupPage - INFO: Locator type not correct/supported
+11/06/2020 05:28:37 PM -SignupPage - INFO: Element not found with locator//a[contains(text(),'Messages')] locatorType: 
+11/06/2020 05:28:37 PM -SignupPage - INFO: Cannot click on the element with locator: //a[contains(text(),'Messages')] locatorType: 
+11/06/2020 05:28:40 PM -SignupPage - INFO: Element not found with locator//h1[contains(text(), 'Welcome to MessageMe - a complete Chat App')] locatorType: xpath
+11/06/2020 05:28:40 PM -SignupPage - INFO: Element not present with locator: //h1[contains(text(), 'Welcome to MessageMe - a complete Chat App')] locatorType: xpath
+11/06/2020 05:28:40 PM -TestStatus - ERROR: ### VERIFICATION FAILED :: + Successfully return to login page when the user is not logged in
+11/06/2020 05:28:40 PM -TestStatus - INFO: Screenshot save to directory: C:\Users\rayad\workspace_python\MessageMe_Test\base\../screenshots/Successfully return to login page when the user is not logged in.1604701720236.png
+11/06/2020 05:28:43 PM -SignupPage - INFO: Element not found with locator//div[contains(text(),'You need to log in to access messages')] locatorType: xpath
+11/06/2020 05:28:43 PM -SignupPage - INFO: Element not present with locator: //div[contains(text(),'You need to log in to access messages')] locatorType: xpath
+11/06/2020 05:28:43 PM -TestStatus - ERROR: ### VERIFICATION FAILED :: + Error message shows up because the user is not logged in
+11/06/2020 05:28:43 PM -TestStatus - INFO: Screenshot save to directory: C:\Users\rayad\workspace_python\MessageMe_Test\base\../screenshots/Error message shows up because the user is not logged in.1604701723616.png
+11/06/2020 05:28:43 PM -TestStatus - ERROR: test_useMessagesLink ### TEST FAILED
+11/06/2020 05:28:53 PM -LoginPage - INFO: Element Found with locator: //a[@class='ui primary button'] locatorType: xpath
+11/06/2020 05:28:53 PM -LoginPage - INFO: Clicked on element with locator: //a[@class='ui primary button'] locatorType: xpath
+11/06/2020 05:28:53 PM -LoginPage - INFO: Element Found with locator: //h1[contains(text(),'Welcome to MessageMe - a complete Chat App')] locatorType: xpath
+11/06/2020 05:28:53 PM -LoginPage - INFO: Element present with locator: //h1[contains(text(),'Welcome to MessageMe - a complete Chat App')] locatorType: xpath
+11/06/2020 05:28:53 PM -TestStatus - INFO: ### VERIFICATION SUCCESSFUL :: + Successfully return to login page by using login navigation link
+11/06/2020 05:28:53 PM -Util - INFO: Wait :: '1' seconds for 
+11/06/2020 05:28:54 PM -LoginPage - INFO: Element Found with locator: //div[@class='ui dropdown item'] locatorType: xpath
+11/06/2020 05:28:54 PM -LoginPage - INFO: Clicked on element with locator: //div[@class='ui dropdown item'] locatorType: xpath
+11/06/2020 05:28:54 PM -LoginPage - INFO: Element Found with locator: //div[@class='menu transition visible'] locatorType: xpath
+11/06/2020 05:28:54 PM -LoginPage - INFO: Element present with locator: //div[@class='menu transition visible'] locatorType: xpath
+11/06/2020 05:28:54 PM -TestStatus - INFO: ### VERIFICATION SUCCESSFUL :: + The dropdown menu is visible after click
+11/06/2020 05:28:54 PM -LoginPage - INFO: Element Found with locator: //div[@class='menu transition visible']//a[@class='item'] locatorType: xpath
+11/06/2020 05:28:54 PM -LoginPage - INFO: Clicked on element with locator: //div[@class='menu transition visible']//a[@class='item'] locatorType: xpath
+11/06/2020 05:28:55 PM -LoginPage - INFO: Element Found with locator: //h1[contains(text(),'Welcome to MessageMe - a complete Chat App')] locatorType: xpath
+11/06/2020 05:28:55 PM -LoginPage - INFO: Element present with locator: //h1[contains(text(),'Welcome to MessageMe - a complete Chat App')] locatorType: xpath
+11/06/2020 05:28:55 PM -TestStatus - INFO: ### VERIFICATION SUCCESSFUL :: + Successfully return to login page by using login link under account dropdown
+11/06/2020 05:28:55 PM -TestStatus - INFO: test_useLoginNavigation ### TEST SUCCESSFUL
+11/06/2020 05:28:55 PM -Util - INFO: Wait :: '2' seconds for 
+11/06/2020 05:28:57 PM -LoginPage - INFO: Element Found with locator: //a[@class='active item'] locatorType: xpath
+11/06/2020 05:28:57 PM -LoginPage - INFO: Clicked on element with locator: //a[@class='active item'] locatorType: xpath
+11/06/2020 05:28:57 PM -LoginPage - INFO: Element Found with locator: //h1[contains(text(),'Welcome to MessageMe - a complete Chat App')] locatorType: xpath
+11/06/2020 05:28:57 PM -LoginPage - INFO: Element present with locator: //h1[contains(text(),'Welcome to MessageMe - a complete Chat App')] locatorType: xpath
+11/06/2020 05:28:57 PM -TestStatus - INFO: ### VERIFICATION SUCCESSFUL :: + Return to login page after clicking 'Chatroom' when the user is not logged in
+11/06/2020 05:29:00 PM -LoginPage - INFO: Element not found with locator//div[contains(text(), 'You need to log in to access the chatroom')] locatorType: xpath
+11/06/2020 05:29:00 PM -LoginPage - INFO: Element not present with locator: //div[contains(text(), 'You need to log in to access the chatroom')] locatorType: xpath
+11/06/2020 05:29:00 PM -TestStatus - ERROR: ### VERIFICATION FAILED :: + Error message shows up because the user is not logged in
+11/06/2020 05:29:00 PM -TestStatus - INFO: Screenshot save to directory: C:\Users\rayad\workspace_python\MessageMe_Test\base\../screenshots/Error message shows up because the user is not logged in.1604701740150.png
+11/06/2020 05:29:00 PM -TestStatus - ERROR: test_useChatroomLink ### TEST FAILED
+11/06/2020 05:29:00 PM -LoginPage - INFO: Locator type not correct/supported
+11/06/2020 05:29:00 PM -LoginPage - INFO: Element not found with locator//a[contains(text(),'Messages')] locatorType: 
+11/06/2020 05:29:00 PM -LoginPage - INFO: Cannot click on the element with locator: //a[contains(text(),'Messages')] locatorType: 
+11/06/2020 05:29:00 PM -LoginPage - INFO: Element Found with locator: //h1[contains(text(),'Welcome to MessageMe - a complete Chat App')] locatorType: xpath
+11/06/2020 05:29:00 PM -LoginPage - INFO: Element present with locator: //h1[contains(text(),'Welcome to MessageMe - a complete Chat App')] locatorType: xpath
+11/06/2020 05:29:00 PM -TestStatus - INFO: ### VERIFICATION SUCCESSFUL :: + Return to login page after clicking 'Messages' when the user is not logged in
+11/06/2020 05:29:03 PM -LoginPage - INFO: Element not found with locator//div[contains(text(),'You need to log in to access messages')] locatorType: xpath
+11/06/2020 05:29:03 PM -LoginPage - INFO: Element not present with locator: //div[contains(text(),'You need to log in to access messages')] locatorType: xpath
+11/06/2020 05:29:03 PM -TestStatus - ERROR: ### VERIFICATION FAILED :: + Error message shows up because the user is not logged in
+11/06/2020 05:29:03 PM -TestStatus - INFO: Screenshot save to directory: C:\Users\rayad\workspace_python\MessageMe_Test\base\../screenshots/Error message shows up because the user is not logged in.1604701743593.png
+11/06/2020 05:29:03 PM -TestStatus - ERROR: test_useMessagesLink ### TEST FAILED
+11/06/2020 05:29:03 PM -LoginPage - INFO: Element Found with locator: //button[@name='button'] locatorType: xpath
+11/06/2020 05:29:04 PM -LoginPage - INFO: Clicked on element with locator: //button[@name='button'] locatorType: xpath
+11/06/2020 05:29:04 PM -LoginPage - INFO: Element Found with locator: //div[contains(text(),'There was something wrong with your login information')] locatorType: xpath
+11/06/2020 05:29:04 PM -LoginPage - INFO: Element present with locator: //div[contains(text(),'There was something wrong with your login information')] locatorType: xpath
+11/06/2020 05:29:04 PM -TestStatus - INFO: ### VERIFICATION SUCCESSFUL :: + As expected: an user can't login with empty username and password
+11/06/2020 05:29:04 PM -Util - INFO: Wait :: '1' seconds for 
+11/06/2020 05:29:05 PM -LoginPage - INFO: Element Found with locator: //i[@class='close icon'] locatorType: xpath
+11/06/2020 05:29:05 PM -LoginPage - INFO: Clicked on element with locator: //i[@class='close icon'] locatorType: xpath
+11/06/2020 05:29:05 PM -LoginPage - INFO: Element Found with locator: //div[@class='ui error message transition hidden'] locatorType: xpath
+11/06/2020 05:29:05 PM -LoginPage - INFO: Element present with locator: //div[@class='ui error message transition hidden'] locatorType: xpath
+11/06/2020 05:29:05 PM -TestStatus - INFO: ### VERIFICATION SUCCESSFUL :: + The error message is closed successfully
+11/06/2020 05:29:05 PM -TestStatus - INFO: test_loginAllEmpty ### TEST SUCCESSFUL
+11/06/2020 05:29:05 PM -LoginPage - INFO: Element Found with locator: //input[@id='session_username'] locatorType: xpath
+11/06/2020 05:29:05 PM -LoginPage - INFO: Clicked on element with locator: //input[@id='session_username'] locatorType: xpath
+11/06/2020 05:29:05 PM -LoginPage - INFO: Element Found with locator: //input[@id='session_password'] locatorType: xpath
+11/06/2020 05:29:05 PM -LoginPage - INFO: Clicked on element with locator: //input[@id='session_password'] locatorType: xpath
+11/06/2020 05:29:05 PM -LoginPage - INFO: Element Found with locator: //button[@name='button'] locatorType: xpath
+11/06/2020 05:29:06 PM -LoginPage - INFO: Clicked on element with locator: //button[@name='button'] locatorType: xpath
+11/06/2020 05:29:06 PM -LoginPage - INFO: Element Found with locator: //div[contains(text(),'There was something wrong with your login information')] locatorType: xpath
+11/06/2020 05:29:06 PM -LoginPage - INFO: Element present with locator: //div[contains(text(),'There was something wrong with your login information')] locatorType: xpath
+11/06/2020 05:29:06 PM -TestStatus - INFO: ### VERIFICATION SUCCESSFUL :: + As expected: an user can't login with empty username
+11/06/2020 05:29:06 PM -Util - INFO: Wait :: '1' seconds for 
+11/06/2020 05:29:07 PM -LoginPage - INFO: Element Found with locator: //i[@class='close icon'] locatorType: xpath
+11/06/2020 05:29:07 PM -LoginPage - INFO: Clicked on element with locator: //i[@class='close icon'] locatorType: xpath
+11/06/2020 05:29:07 PM -LoginPage - INFO: Element Found with locator: //div[@class='ui error message transition hidden'] locatorType: xpath
+11/06/2020 05:29:07 PM -LoginPage - INFO: Element present with locator: //div[@class='ui error message transition hidden'] locatorType: xpath
+11/06/2020 05:29:07 PM -TestStatus - INFO: ### VERIFICATION SUCCESSFUL :: + The error message is closed successfully
+11/06/2020 05:29:07 PM -Util - INFO: Wait :: '1' seconds for 
+11/06/2020 05:29:08 PM -LoginPage - INFO: Element Found with locator: //input[@id='session_username'] locatorType: xpath
+11/06/2020 05:29:08 PM -LoginPage - INFO: Clicked on element with locator: //input[@id='session_username'] locatorType: xpath
+11/06/2020 05:29:08 PM -LoginPage - INFO: Element Found with locator: //input[@id='session_password'] locatorType: xpath
+11/06/2020 05:29:08 PM -LoginPage - INFO: Clicked on element with locator: //input[@id='session_password'] locatorType: xpath
+11/06/2020 05:29:08 PM -LoginPage - INFO: Element Found with locator: //button[@name='button'] locatorType: xpath
+11/06/2020 05:29:09 PM -LoginPage - INFO: Clicked on element with locator: //button[@name='button'] locatorType: xpath
+11/06/2020 05:29:09 PM -LoginPage - INFO: Element Found with locator: //div[contains(text(),'There was something wrong with your login information')] locatorType: xpath
+11/06/2020 05:29:09 PM -LoginPage - INFO: Element present with locator: //div[contains(text(),'There was something wrong with your login information')] locatorType: xpath
+11/06/2020 05:29:09 PM -TestStatus - INFO: ### VERIFICATION SUCCESSFUL :: + As expected: an user can't login with empty password
+11/06/2020 05:29:09 PM -Util - INFO: Wait :: '1' seconds for 
+11/06/2020 05:29:10 PM -LoginPage - INFO: Element Found with locator: //i[@class='close icon'] locatorType: xpath
+11/06/2020 05:29:10 PM -LoginPage - INFO: Clicked on element with locator: //i[@class='close icon'] locatorType: xpath
+11/06/2020 05:29:10 PM -LoginPage - INFO: Element Found with locator: //div[@class='ui error message transition hidden'] locatorType: xpath
+11/06/2020 05:29:10 PM -LoginPage - INFO: Element present with locator: //div[@class='ui error message transition hidden'] locatorType: xpath
+11/06/2020 05:29:10 PM -TestStatus - INFO: ### VERIFICATION SUCCESSFUL :: + The error message is closed successfully
+11/06/2020 05:29:10 PM -TestStatus - INFO: test_loginOneEmpty ### TEST SUCCESSFUL
+11/06/2020 05:29:10 PM -Util - INFO: Wait :: '2' seconds for 
+11/06/2020 05:29:12 PM -LoginPage - INFO: Element Found with locator: //input[@id='session_username'] locatorType: xpath
+11/06/2020 05:29:12 PM -LoginPage - INFO: Clicked on element with locator: //input[@id='session_username'] locatorType: xpath
+11/06/2020 05:29:12 PM -LoginPage - INFO: Element Found with locator: //input[@id='session_password'] locatorType: xpath
+11/06/2020 05:29:12 PM -LoginPage - INFO: Clicked on element with locator: //input[@id='session_password'] locatorType: xpath
+11/06/2020 05:29:12 PM -LoginPage - INFO: Element Found with locator: //button[@name='button'] locatorType: xpath
+11/06/2020 05:29:13 PM -LoginPage - INFO: Clicked on element with locator: //button[@name='button'] locatorType: xpath
+11/06/2020 05:29:13 PM -LoginPage - INFO: Element Found with locator: //div[contains(text(),'There was something wrong with your login information')] locatorType: xpath
+11/06/2020 05:29:13 PM -LoginPage - INFO: Element present with locator: //div[contains(text(),'There was something wrong with your login information')] locatorType: xpath
+11/06/2020 05:29:13 PM -TestStatus - INFO: ### VERIFICATION SUCCESSFUL :: + As expected: an user can't login to a non-existent account
+11/06/2020 05:29:13 PM -Util - INFO: Wait :: '1' seconds for 
+11/06/2020 05:29:14 PM -LoginPage - INFO: Element Found with locator: //i[@class='close icon'] locatorType: xpath
+11/06/2020 05:29:14 PM -LoginPage - INFO: Clicked on element with locator: //i[@class='close icon'] locatorType: xpath
+11/06/2020 05:29:14 PM -LoginPage - INFO: Element Found with locator: //div[@class='ui error message transition hidden'] locatorType: xpath
+11/06/2020 05:29:14 PM -LoginPage - INFO: Element present with locator: //div[@class='ui error message transition hidden'] locatorType: xpath
+11/06/2020 05:29:14 PM -TestStatus - INFO: ### VERIFICATION SUCCESSFUL :: + The error message is closed successfully
+11/06/2020 05:29:14 PM -TestStatus - INFO: test_createNonExistentAccount ### TEST SUCCESSFUL
+11/06/2020 05:29:14 PM -Util - INFO: Wait :: '2' seconds for 
+11/06/2020 05:29:16 PM -LoginPage - INFO: Element Found with locator: //input[@id='session_username'] locatorType: xpath
+11/06/2020 05:29:16 PM -LoginPage - INFO: Clicked on element with locator: //input[@id='session_username'] locatorType: xpath
+11/06/2020 05:29:16 PM -LoginPage - INFO: Element Found with locator: //input[@id='session_password'] locatorType: xpath
+11/06/2020 05:29:16 PM -LoginPage - INFO: Clicked on element with locator: //input[@id='session_password'] locatorType: xpath
+11/06/2020 05:29:16 PM -LoginPage - INFO: Element Found with locator: //button[@name='button'] locatorType: xpath
+11/06/2020 05:29:17 PM -LoginPage - INFO: Clicked on element with locator: //button[@name='button'] locatorType: xpath
+11/06/2020 05:29:17 PM -LoginPage - INFO: Element Found with locator: //div[contains(text(),'There was something wrong with your login information')] locatorType: xpath
+11/06/2020 05:29:17 PM -LoginPage - INFO: Element present with locator: //div[contains(text(),'There was something wrong with your login information')] locatorType: xpath
+11/06/2020 05:29:17 PM -TestStatus - INFO: ### VERIFICATION SUCCESSFUL :: + As expected: an user can't login with a wrong password
+11/06/2020 05:29:17 PM -Util - INFO: Wait :: '1' seconds for 
+11/06/2020 05:29:18 PM -LoginPage - INFO: Element Found with locator: //i[@class='close icon'] locatorType: xpath
+11/06/2020 05:29:18 PM -LoginPage - INFO: Clicked on element with locator: //i[@class='close icon'] locatorType: xpath
+11/06/2020 05:29:18 PM -LoginPage - INFO: Element Found with locator: //div[@class='ui error message transition hidden'] locatorType: xpath
+11/06/2020 05:29:18 PM -LoginPage - INFO: Element present with locator: //div[@class='ui error message transition hidden'] locatorType: xpath
+11/06/2020 05:29:18 PM -TestStatus - INFO: ### VERIFICATION SUCCESSFUL :: + The error message is closed successfully
+11/06/2020 05:29:18 PM -TestStatus - INFO: test_loginWrongPassword ### TEST SUCCESSFUL
+11/06/2020 05:29:18 PM -Util - INFO: Wait :: '2' seconds for 
+11/06/2020 05:29:20 PM -LoginPage - INFO: Element Found with locator: //input[@id='session_username'] locatorType: xpath
+11/06/2020 05:29:20 PM -LoginPage - INFO: Clicked on element with locator: //input[@id='session_username'] locatorType: xpath
+11/06/2020 05:29:20 PM -LoginPage - INFO: Element Found with locator: //input[@id='session_password'] locatorType: xpath
+11/06/2020 05:29:20 PM -LoginPage - INFO: Clicked on element with locator: //input[@id='session_password'] locatorType: xpath
+11/06/2020 05:29:20 PM -LoginPage - INFO: Element Found with locator: //button[@name='button'] locatorType: xpath
+11/06/2020 05:29:21 PM -LoginPage - INFO: Clicked on element with locator: //button[@name='button'] locatorType: xpath
+11/06/2020 05:29:21 PM -LoginPage - INFO: Element Found with locator: //i[@class='circular orange coffee icon'] locatorType: xpath
+11/06/2020 05:29:21 PM -LoginPage - INFO: Element present with locator: //i[@class='circular orange coffee icon'] locatorType: xpath
+11/06/2020 05:29:21 PM -TestStatus - INFO: ### VERIFICATION SUCCESSFUL :: + The user successfully navigates to the chatroom page
+11/06/2020 05:29:21 PM -LoginPage - INFO: Element Found with locator: //div[contains(text(),'You have successfully logged in')] locatorType: xpath
+11/06/2020 05:29:21 PM -LoginPage - INFO: Element present with locator: //div[contains(text(),'You have successfully logged in')] locatorType: xpath
+11/06/2020 05:29:21 PM -TestStatus - INFO: ### VERIFICATION SUCCESSFUL :: + The success message is displayed
+11/06/2020 05:29:21 PM -Util - INFO: Wait :: '1' seconds for 
+11/06/2020 05:29:22 PM -LoginPage - INFO: Element Found with locator: //i[@class='close icon'] locatorType: xpath
+11/06/2020 05:29:22 PM -LoginPage - INFO: Clicked on element with locator: //i[@class='close icon'] locatorType: xpath
+11/06/2020 05:29:23 PM -LoginPage - INFO: Element Found with locator: //div[@class='ui success message transition hidden'] locatorType: xpath
+11/06/2020 05:29:23 PM -LoginPage - INFO: Element present with locator: //div[@class='ui success message transition hidden'] locatorType: xpath
+11/06/2020 05:29:23 PM -TestStatus - INFO: ### VERIFICATION SUCCESSFUL :: + The success message is closed successfully
+11/06/2020 05:29:23 PM -TestStatus - INFO: test_successfulLogin ### TEST SUCCESSFUL
+11/06/2020 05:29:23 PM -Util - INFO: Wait :: '2' seconds for 
+11/06/2020 05:29:34 PM -LoginPage - INFO: Element Found with locator: //input[@id='session_username'] locatorType: xpath
+11/06/2020 05:29:34 PM -LoginPage - INFO: Clicked on element with locator: //input[@id='session_username'] locatorType: xpath
+11/06/2020 05:29:34 PM -LoginPage - INFO: Element Found with locator: //input[@id='session_password'] locatorType: xpath
+11/06/2020 05:29:34 PM -LoginPage - INFO: Clicked on element with locator: //input[@id='session_password'] locatorType: xpath
+11/06/2020 05:29:34 PM -LoginPage - INFO: Element Found with locator: //button[@name='button'] locatorType: xpath
+11/06/2020 05:29:35 PM -LoginPage - INFO: Clicked on element with locator: //button[@name='button'] locatorType: xpath
+11/06/2020 05:29:35 PM -ChatroomPage - INFO: Element Found with locator: //i[@class='circular orange coffee icon'] locatorType: xpath
+11/06/2020 05:29:35 PM -ChatroomPage - INFO: Element present with locator: //i[@class='circular orange coffee icon'] locatorType: xpath
+11/06/2020 05:29:35 PM -TestStatus - INFO: ### VERIFICATION SUCCESSFUL :: + Successfully reach the chatroom after logging in
+11/06/2020 05:29:35 PM -Util - INFO: Wait :: '1' seconds for 
+11/06/2020 05:29:36 PM -ChatroomPage - INFO: Element Found with locator: //a[contains(text(),'Chatroom')] locatorType: xpath
+11/06/2020 05:29:36 PM -ChatroomPage - INFO: Clicked on element with locator: //a[contains(text(),'Chatroom')] locatorType: xpath
+11/06/2020 05:29:36 PM -ChatroomPage - INFO: Element Found with locator: //i[@class='circular orange coffee icon'] locatorType: xpath
+11/06/2020 05:29:36 PM -ChatroomPage - INFO: Element present with locator: //i[@class='circular orange coffee icon'] locatorType: xpath
+11/06/2020 05:29:36 PM -TestStatus - INFO: ### VERIFICATION SUCCESSFUL :: + Successfully reach the chatroom after logging in
+11/06/2020 05:29:36 PM -TestStatus - INFO: test_useChatroomNavigationLink ### TEST SUCCESSFUL
+11/06/2020 05:29:36 PM -Util - INFO: Wait :: '2' seconds for 
+11/06/2020 05:29:38 PM -ChatroomPage - INFO: Element Found with locator: //div[@class='ui container']/a[contains(text(),'Messages')] locatorType: xpath
+11/06/2020 05:29:38 PM -ChatroomPage - INFO: Clicked on element with locator: //div[@class='ui container']/a[contains(text(),'Messages')] locatorType: xpath
+11/06/2020 05:29:38 PM -ChatroomPage - INFO: Element not present with locator:  locatorType: xpath
+11/06/2020 05:29:38 PM -TestStatus - ERROR: ### VERIFICATION FAILED :: + Successfully reach the messages page after logging in
+11/06/2020 05:29:39 PM -TestStatus - INFO: Screenshot save to directory: C:\Users\rayad\workspace_python\MessageMe_Test\base\../screenshots/Successfully reach the messages page after logging in.1604701778742.png
+11/06/2020 05:29:39 PM -TestStatus - ERROR: test_useMessagesNavigationLink ### TEST FAILED
+11/06/2020 05:29:39 PM -ChatroomPage - INFO: Element Found with locator: //div[@class='ui inverted vertical menu']//a[contains(text(),'Messages')] locatorType: xpath
+11/06/2020 05:29:39 PM -ChatroomPage - INFO: Clicked on element with locator: //div[@class='ui inverted vertical menu']//a[contains(text(),'Messages')] locatorType: xpath
+11/06/2020 05:29:39 PM -ChatroomPage - INFO: Element not present with locator:  locatorType: xpath
+11/06/2020 05:29:39 PM -TestStatus - ERROR: ### VERIFICATION FAILED :: + Successfully reach the messages page after logging in
+11/06/2020 05:29:39 PM -TestStatus - INFO: Screenshot save to directory: C:\Users\rayad\workspace_python\MessageMe_Test\base\../screenshots/Successfully reach the messages page after logging in.1604701779159.png
+11/06/2020 05:29:39 PM -Util - INFO: Wait :: '1' seconds for 
+11/06/2020 05:29:40 PM -ChatroomPage - INFO: Element Found with locator: //a[contains(text(),'Friends')] locatorType: xpath
+11/06/2020 05:29:40 PM -ChatroomPage - INFO: Clicked on element with locator: //a[contains(text(),'Friends')] locatorType: xpath
+11/06/2020 05:29:40 PM -ChatroomPage - INFO: Element not present with locator:  locatorType: xpath
+11/06/2020 05:29:40 PM -TestStatus - ERROR: ### VERIFICATION FAILED :: + Successfully reach the friends page after logging in
+11/06/2020 05:29:40 PM -TestStatus - INFO: Screenshot save to directory: C:\Users\rayad\workspace_python\MessageMe_Test\base\../screenshots/Successfully reach the friends page after logging in.1604701780562.png
+11/06/2020 05:29:40 PM -Util - INFO: Wait :: '1' seconds for 
+11/06/2020 05:29:41 PM -ChatroomPage - INFO: Element Found with locator: //a[contains(text(),'Home')] locatorType: xpath
+11/06/2020 05:29:41 PM -ChatroomPage - INFO: Clicked on element with locator: //a[contains(text(),'Home')] locatorType: xpath
+11/06/2020 05:29:41 PM -ChatroomPage - INFO: Element Found with locator: //i[@class='circular orange coffee icon'] locatorType: xpath
+11/06/2020 05:29:41 PM -ChatroomPage - INFO: Element present with locator: //i[@class='circular orange coffee icon'] locatorType: xpath
+11/06/2020 05:29:41 PM -TestStatus - INFO: ### VERIFICATION SUCCESSFUL :: + Successfully reach the friends page after logging in
+11/06/2020 05:29:41 PM -TestStatus - ERROR: test_useLinksUnderNavigationMenu ### TEST FAILED
+11/06/2020 05:29:42 PM -ChatroomPage - INFO: Element Found with locator: //input[@id='message_body'] locatorType: xpath
+11/06/2020 05:29:42 PM -ChatroomPage - INFO: Clicked on element with locator: //input[@id='message_body'] locatorType: xpath
+11/06/2020 05:29:42 PM -ChatroomPage - INFO: Element Found with locator: //button[@name='button'] locatorType: xpath
+11/06/2020 05:29:42 PM -ChatroomPage - INFO: Clicked on element with locator: //button[@name='button'] locatorType: xpath
+11/06/2020 05:29:42 PM -ChatroomPage - INFO: Element Found with locator: //div[contains(em/following-sibling::text(), ': hello8267515227') and contains(em, 'test1')] locatorType: xpath
+11/06/2020 05:29:42 PM -ChatroomPage - INFO: Element present with locator: //div[contains(em/following-sibling::text(), ': hello8267515227') and contains(em, 'test1')] locatorType: xpath
+11/06/2020 05:29:42 PM -TestStatus - INFO: ### VERIFICATION SUCCESSFUL :: + The message is displayed on the chat box after clicking submit
+11/06/2020 05:29:42 PM -ChatroomPage - INFO: Element Found with locator: //input[@id='message_body'] locatorType: xpath
+11/06/2020 05:29:42 PM -ChatroomPage - INFO: Pressed ENTER on element with locator: //input[@id='message_body'] locatorType: xpath
+11/06/2020 05:29:42 PM -TestStatus - ERROR: ### VERIFICATION FAILED :: + The chat input field is empty after clicking submit
+11/06/2020 05:29:42 PM -TestStatus - INFO: Screenshot save to directory: C:\Users\rayad\workspace_python\MessageMe_Test\base\../screenshots/The chat input field is empty after clicking submit.1604701782339.png
+11/06/2020 05:29:42 PM -ChatroomPage - INFO: Element Found with locator: //input[@id='message_body'] locatorType: xpath
+11/06/2020 05:29:42 PM -Util - INFO: Wait :: '1' seconds for 
+11/06/2020 05:29:43 PM -ChatroomPage - INFO: Element Found with locator: //input[@id='message_body'] locatorType: xpath
+11/06/2020 05:29:43 PM -ChatroomPage - INFO: Clicked on element with locator: //input[@id='message_body'] locatorType: xpath
+11/06/2020 05:29:43 PM -ChatroomPage - INFO: Element Found with locator: //input[@id='message_body'] locatorType: xpath
+11/06/2020 05:29:43 PM -ChatroomPage - INFO: Pressed ENTER on element with locator: //input[@id='message_body'] locatorType: xpath
+11/06/2020 05:29:44 PM -ChatroomPage - INFO: Element Found with locator: //div[contains(em/following-sibling::text(), ': world9441532768') and contains(em, 'test1')] locatorType: xpath
+11/06/2020 05:29:44 PM -ChatroomPage - INFO: Element present with locator: //div[contains(em/following-sibling::text(), ': world9441532768') and contains(em, 'test1')] locatorType: xpath
+11/06/2020 05:29:44 PM -TestStatus - INFO: ### VERIFICATION SUCCESSFUL :: + The message is displayed on the chat box after pressing enter
+11/06/2020 05:29:44 PM -ChatroomPage - INFO: Element Found with locator: //input[@id='message_body'] locatorType: xpath
+11/06/2020 05:29:44 PM -ChatroomPage - INFO: Pressed ENTER on element with locator: //input[@id='message_body'] locatorType: xpath
+11/06/2020 05:29:44 PM -TestStatus - INFO: ### VERIFICATION SUCCESSFUL :: + The chat input field is empty after pressing ENTER
+11/06/2020 05:29:44 PM -TestStatus - ERROR: test_submitMessageByClickingAndPressingEnter ### TEST FAILED
+11/06/2020 05:29:44 PM -ChatroomPage - INFO: Element Found with locator: //input[@id='message_body'] locatorType: xpath
+11/06/2020 05:29:44 PM -ChatroomPage - INFO: Clicked on element with locator: //input[@id='message_body'] locatorType: xpath
+11/06/2020 05:29:44 PM -ChatroomPage - INFO: Element Found with locator: //button[@name='button'] locatorType: xpath
+11/06/2020 05:29:44 PM -ChatroomPage - INFO: Clicked on element with locator: //button[@name='button'] locatorType: xpath
+11/06/2020 05:29:47 PM -ChatroomPage - INFO: Element not found with locator//div[contains(em/following-sibling::text(), ':    ') and contains(em, 'test1')] locatorType: xpath
+11/06/2020 05:29:47 PM -ChatroomPage - INFO: Element not present with locator: //div[contains(em/following-sibling::text(), ':    ') and contains(em, 'test1')] locatorType: xpath
+11/06/2020 05:29:47 PM -TestStatus - INFO: ### VERIFICATION SUCCESSFUL :: + Empty message is not displayed on the chat box after clicking submit
+11/06/2020 05:29:47 PM -Util - INFO: Wait :: '1' seconds for 
+11/06/2020 05:29:48 PM -ChatroomPage - INFO: Element Found with locator: //input[@id='message_body'] locatorType: xpath
+11/06/2020 05:29:48 PM -ChatroomPage - INFO: Clicked on element with locator: //input[@id='message_body'] locatorType: xpath
+11/06/2020 05:29:48 PM -ChatroomPage - INFO: Element Found with locator: //input[@id='message_body'] locatorType: xpath
+11/06/2020 05:29:48 PM -ChatroomPage - INFO: Pressed ENTER on element with locator: //input[@id='message_body'] locatorType: xpath
+11/06/2020 05:29:51 PM -ChatroomPage - INFO: Element not found with locator//div[contains(em/following-sibling::text(), ':    ') and contains(em, 'test1')] locatorType: xpath
+11/06/2020 05:29:51 PM -ChatroomPage - INFO: Element not present with locator: //div[contains(em/following-sibling::text(), ':    ') and contains(em, 'test1')] locatorType: xpath
+11/06/2020 05:29:51 PM -TestStatus - INFO: ### VERIFICATION SUCCESSFUL :: + Empty message is not displayed on the chat box after pressing ENTER
+11/06/2020 05:29:51 PM -TestStatus - INFO: test_submitEmptyMessage ### TEST SUCCESSFUL
+11/06/2020 05:29:51 PM -Util - INFO: Wait :: '2' seconds for 
+11/06/2020 05:29:53 PM -ChatroomPage - INFO: Element Found with locator: //div[@class='ui dropdown item'] locatorType: xpath
+11/06/2020 05:29:53 PM -ChatroomPage - INFO: Clicked on element with locator: //div[@class='ui dropdown item'] locatorType: xpath
+11/06/2020 05:29:53 PM -ChatroomPage - INFO: Element Found with locator: //div[@class='menu transition visible'] locatorType: xpath
+11/06/2020 05:29:53 PM -ChatroomPage - INFO: Element present with locator: //div[@class='menu transition visible'] locatorType: xpath
+11/06/2020 05:29:53 PM -TestStatus - INFO: ### VERIFICATION SUCCESSFUL :: + Account dropdown opens after click
+11/06/2020 05:29:53 PM -Util - INFO: Wait :: '1' seconds for 
+11/06/2020 05:29:54 PM -ChatroomPage - INFO: Element Found with locator: //a[contains(text(),'Logout')] locatorType: xpath
+11/06/2020 05:29:55 PM -ChatroomPage - INFO: Clicked on element with locator: //a[contains(text(),'Logout')] locatorType: xpath
+11/06/2020 05:29:55 PM -LoginPage - INFO: Element Found with locator: //h1[contains(text(),'Welcome to MessageMe - a complete Chat App')] locatorType: xpath
+11/06/2020 05:29:55 PM -LoginPage - INFO: Element present with locator: //h1[contains(text(),'Welcome to MessageMe - a complete Chat App')] locatorType: xpath
+11/06/2020 05:29:55 PM -TestStatus - INFO: ### VERIFICATION SUCCESSFUL :: + Logout is successful and the user reaches login page
+11/06/2020 05:29:55 PM -Util - INFO: Wait :: '1' seconds for 
+11/06/2020 05:29:56 PM -LoginPage - INFO: Element Found with locator: //div[contains(text(),'You have successfully logged out')] locatorType: xpath
+11/06/2020 05:29:56 PM -LoginPage - INFO: Element present with locator: //div[contains(text(),'You have successfully logged out')] locatorType: xpath
+11/06/2020 05:29:56 PM -TestStatus - INFO: ### VERIFICATION SUCCESSFUL :: + Success message that indicate successful logout is displayed
+11/06/2020 05:29:56 PM -Util - INFO: Wait :: '1' seconds for 
+11/06/2020 05:29:57 PM -LoginPage - INFO: Element Found with locator: //i[@class='close icon'] locatorType: xpath
+11/06/2020 05:29:57 PM -LoginPage - INFO: Clicked on element with locator: //i[@class='close icon'] locatorType: xpath
+11/06/2020 05:29:57 PM -LoginPage - INFO: Element Found with locator: //div[@class='ui success message transition hidden'] locatorType: xpath
+11/06/2020 05:29:57 PM -LoginPage - INFO: Element present with locator: //div[@class='ui success message transition hidden'] locatorType: xpath
+11/06/2020 05:29:57 PM -TestStatus - INFO: ### VERIFICATION SUCCESSFUL :: + The success message is closed successfully
+11/06/2020 05:29:57 PM -TestStatus - INFO: test_logOut ### TEST SUCCESSFUL
+11/06/2020 05:29:57 PM -Util - INFO: Wait :: '2' seconds for 
