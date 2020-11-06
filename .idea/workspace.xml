@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e0a0bf1e-08c0-4b29-9c98-acc4b72db9f6" name="Default Changelist" comment="" />
+    <list default="true" id="e0a0bf1e-08c0-4b29-9c98-acc4b72db9f6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/automation.log" beforeDir="false" afterPath="$PROJECT_DIR$/automation.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/debug.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/chatroom_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/chatroom_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/login_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/login_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/signup_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/signup_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/chatroom/chatroom_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/chatroom/chatroom_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/login/login_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/login/login_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/signup/signup_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/signup/signup_test.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,7 +25,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1jDKVVvlvOZhn898Q2PKIyQjiJx" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -22,6 +37,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunManager">
@@ -79,9 +95,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="930" height="265" key="GridCell.Tab.0.right/1920.0.1600.860/0.0.1920.1040@0.0.1920.1040" timestamp="1603858328913" />
-    <state x="591" y="302" key="com.intellij.ide.util.TipDialog" timestamp="1604610195894">
+    <state x="591" y="302" key="com.intellij.ide.util.TipDialog" timestamp="1604694964037">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="591" y="302" key="com.intellij.ide.util.TipDialog/1920.0.1600.860/0.0.1920.1040@0.0.1920.1040" timestamp="1604610195894" />
+    <state x="591" y="302" key="com.intellij.ide.util.TipDialog/1920.0.1600.860/0.0.1920.1040@0.0.1920.1040" timestamp="1604694964037" />
   </component>
 </project>

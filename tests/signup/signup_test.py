@@ -219,6 +219,24 @@ class SignupTests(unittest.TestCase):
                           "Error message shows up because the user is not logged in")
         self.util.sleep(sec=2)
 
-    # IMPORTANT: implement test for Messages link!
+    @pytest.mark.run(order=10)
+    def test_useMessagesLink(self):
+        """
+        SIGNUP_008: Verify clicking "Messages" Navigation Link on the Sign Up Page will open the Login Page
+        :return:
+        """
+        self.signup.navigateToSignup()
+        self.util.sleep(sec=1)
+
+        # Verify successful return to home page
+        self.signup.clickMessagesLink()
+        result_returnHome = self.signup.verifyNavigateHome()
+        self.ts.mark(result_returnHome, "Successfully return to login page when the user is not logged in")
+
+        # Verify error message is displayed
+        result_messagePresent = self.signup.verifyMessageDisplayed(state="messagesError")
+        self.ts.markFinal("test_useMessagesLink", result_messagePresent,
+                          "Error message shows up because the user is not logged in")
+        self.util.sleep(sec=2)
 
 

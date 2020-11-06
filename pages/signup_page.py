@@ -22,7 +22,7 @@ class SignupPage(BasePage):
     _second_login_link = _account_dropdown_visible + "//a[@class='item']"
     _chatroom_link = "//a[@class='active item']"
     _close_message = "//i[@class='close icon']"
-    # _messages_link = "Messages"     ### find by partial text?
+    _messages_link = "//a[contains(text(),'Messages')]"
 
     # locators for verification purposes
     _signup_header = "//h1[contains(text(),'Sign up to MessageMe')]"
@@ -64,12 +64,12 @@ class SignupPage(BasePage):
         """
         self.elementClick(locator=self._second_login_link, locatorType="xpath")
 
-    # def clickMessagesLink(self):
-    #     """
-    #     Click messages navigation link
-    #     :return:
-    #     """
-    #     self.elementClick(locator=self._messages_link, locatorType="")
+    def clickMessagesLink(self):
+        """
+        Click messages navigation link
+        :return:
+        """
+        self.elementClick(locator=self._messages_link, locatorType="")
 
     def clickChatroomLink(self):
         """
@@ -173,7 +173,7 @@ class SignupPage(BasePage):
             return self.isElementPresent(locator=self._error_message_displayed, locatorType="xpath")
         elif state == "chatroomError":
             return self.isElementPresent(locator=self._chatroom_message_displayed, locatorType="xpath")
-        elif state == "messageError":
+        elif state == "messagesError":
             return self.isElementPresent(locator=self._messages_message_displayed, locatorType="xpath")
 
     def verifyMessageClosed(self, state):

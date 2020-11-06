@@ -12,8 +12,8 @@ class ChatroomPage(BasePage):
     # locators
     _account_dropdown = "//div[@class='ui dropdown item']"
     _logout_link = "//a[contains(text(),'Logout')]"
-    # messages_link = ""
-    _chatroom_link = "//a[contains(text(),'Chatroom')]"
+    _messages_navLink = "//div[@class='ui container']/a[contains(text(),'Messages')]"
+    _chatroom_navLink = "//a[contains(text(),'Chatroom')]"
     _chat_input = "//input[@id='message_body']"
     _chat_submit_button = "//button[@name='button']"
     _home_link = "//a[contains(text(),'Home')]"
@@ -32,7 +32,14 @@ class ChatroomPage(BasePage):
         Click the chatroom link on the navigation bar
         :return:
         """
-        self.elementClick(locator=self._chatroom_link, locatorType="xpath")
+        self.elementClick(locator=self._chatroom_navLink, locatorType="xpath")
+
+    def clickMessagesNavigationLink(self):
+        """
+        Click the messages link on the navigation bar
+        :return:
+        """
+        self.elementClick(locator=self._messages_navLink, locatorType="xpath")
 
     def clickHomeLink(self):
         """

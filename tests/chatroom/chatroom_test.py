@@ -19,7 +19,7 @@ class ChatroomTests(unittest.TestCase):
     @pytest.mark.run(order=1)
     def test_useChatroomNavigationLink(self):
         """
-
+        CHAT_001: Verify clicking "Chatroom" open the appropriate pages
         :return:
         """
         username = "test1"
@@ -39,9 +39,22 @@ class ChatroomTests(unittest.TestCase):
         self.util.sleep(sec=2)
 
     @pytest.mark.run(order=2)
+    def test_useMessagesNavigationLink(self):
+        """
+        CHAT_001: Verify clicking "Messages" navigation link open the appropriate pages
+        :return:
+        """
+        # Verify clicking messages link navigates the user to the messages page
+        self.chatroom.clickMessagesNavigationLink()
+        result_reachMesssages = self.chatroom.verifyMessagesReached()
+        self.ts.markFinal("test_useMessagesNavigationLink", result_reachMesssages,
+                          "Successfully reach the messages page after logging in")
+        self.util.sleep(sec=2)
+
+    @pytest.mark.run(order=3)
     def test_useLinksUnderNavigationMenu(self):
         """
-
+        CHAT_002: Verify clicking "Home", "Messages", and "Friends" open the appropriate pages
         :return:
         """
         # Verify successfully navigates to messages page
@@ -63,10 +76,10 @@ class ChatroomTests(unittest.TestCase):
                           "Successfully reach the friends page after logging in")
         self.util.sleep(sec=2)
 
-    @pytest.mark.run(order=3)
+    @pytest.mark.run(order=4)
     def test_submitMessageByClickingAndPressingEnter(self):
         """
-
+        CHAT_004: Verify chatting will display the message on the container under the user's name
         :return:
         """
         message = "hello" + str(randint(0,10000000000))
@@ -96,12 +109,10 @@ class ChatroomTests(unittest.TestCase):
         self.chatroom.cleanUpChatInput()
         self.util.sleep(sec=2)
 
-    ### More test here
-
-    @pytest.mark.run(order=6)
+    @pytest.mark.run(order=5)
     def test_submitEmptyMessage(self):
         """
-
+        CHAT_007: Verify empty chat message will not show up in the chatbox
         :return:
         """
         message = ""
@@ -121,10 +132,10 @@ class ChatroomTests(unittest.TestCase):
                           "Empty message is not displayed on the chat box after pressing ENTER")
         self.util.sleep(sec=2)
 
-    @pytest.mark.run(order=7)
+    @pytest.mark.run(order=6)
     def test_logOut(self):
         """
-
+        CHAT_008: Verify the user can log out of the chatroom successfully
         :return:
         """
         # Click account dropdown

@@ -46,7 +46,7 @@ class SignupTests(unittest.TestCase):
         # Verify successful return to home page
         self.login.clickChatroomLink()
         result_returnHome = self.login.verifyLoginPageReached()
-        self.ts.mark(result_returnHome, "Successfully return to login page when the user is not logged in")
+        self.ts.mark(result_returnHome, "Return to login page after clicking 'Chatroom' when the user is not logged in")
 
         # Verify error message is displayed
         result_messagePresent = self.login.verifyMessageDisplayed(state="chatroomError")
@@ -54,9 +54,24 @@ class SignupTests(unittest.TestCase):
                           "Error message shows up because the user is not logged in")
         self.util.sleep(sec=2)
 
-    # Implement a test for Messages Link
-
     @pytest.mark.run(order=3)
+    def test_useMessagesLink(self):
+        """
+        LOGIN_002: Verify clicking "Messages" when the user is not logged in will open the login page
+        :return:
+        """
+        # Verify successful return to home page
+        self.login.clickMessagesLink()
+        result_returnHome = self.login.verifyLoginPageReached()
+        self.ts.mark(result_returnHome, "Return to login page after clicking 'Messages' when the user is not logged in")
+
+        # Verify error message is displayed
+        result_messagePresent = self.login.verifyMessageDisplayed(state="messagesError")
+        self.ts.markFinal("test_useMessagesLink", result_messagePresent,
+                          "Error message shows up because the user is not logged in")
+        self.util.sleep(sec=2)
+
+    @pytest.mark.run(order=4)
     def test_loginAllEmpty(self):
         """
         LOGIN_003: Verify login with empty username and password triggers an error message
@@ -73,7 +88,7 @@ class SignupTests(unittest.TestCase):
         result_closeMessage = self.login.verifyMessageClosed("error")
         self.ts.markFinal("test_loginAllEmpty", result_closeMessage, "The error message is closed successfully")
 
-    @pytest.mark.run(order=4)
+    @pytest.mark.run(order=5)
     def test_loginOneEmpty(self):
         """
         LOGIN_004: Verify login with an empty username or an empty password triggers an error message
@@ -109,7 +124,7 @@ class SignupTests(unittest.TestCase):
         self.ts.markFinal("test_loginOneEmpty", result_closeMessage, "The error message is closed successfully")
         self.util.sleep(sec=2)
 
-    @pytest.mark.run(order=5)
+    @pytest.mark.run(order=6)
     def test_createNonExistentAccount(self):
         """
         LOGIN_005: Verify login with a non-existent account triggers an error message
@@ -131,7 +146,7 @@ class SignupTests(unittest.TestCase):
                           "The error message is closed successfully")
         self.util.sleep(sec=2)
 
-    @pytest.mark.run(order=6)
+    @pytest.mark.run(order=7)
     def test_loginWrongPassword(self):
         """
         LOGIN_006: Verify login with a wrong password triggers an error message
@@ -152,7 +167,7 @@ class SignupTests(unittest.TestCase):
         self.ts.markFinal("test_loginWrongPassword", result_closeMessage, "The error message is closed successfully")
         self.util.sleep(sec=2)
 
-    @pytest.mark.run(order=7)
+    @pytest.mark.run(order=8)
     def test_successfulLogin(self):
         """
         LOGIN_007: Verify login with a correct username and password navigates the user to the chatroom
