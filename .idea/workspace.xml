@@ -2,16 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e0a0bf1e-08c0-4b29-9c98-acc4b72db9f6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/automation.log" beforeDir="false" afterPath="$PROJECT_DIR$/automation.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/debug.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/chatroom_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/chatroom_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/login_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/login_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/signup_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/signup_page.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/chatroom/chatroom_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/chatroom/chatroom_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/login/login_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/login/login_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/signup/signup_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/signup/signup_test.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

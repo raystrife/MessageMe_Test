@@ -115,19 +115,19 @@ class ChatroomTests(unittest.TestCase):
         CHAT_007: Verify empty chat message will not show up in the chatbox
         :return:
         """
-        message = ""
+        message = "   "
         username = "test1"
 
         # Verify message is displayed after clicking submit
         self.chatroom.writeMessage(message, "click")
-        result_messageDisplayed = self.chatroom.verifyNewChatDisplayed(username, message)       # BUG: Doesn't detect that the empty chat is not displayed
+        result_messageDisplayed = self.chatroom.verifyNewChatDisplayed(username, message)
         self.ts.mark((not result_messageDisplayed),
                      "Empty message is not displayed on the chat box after clicking submit")
         self.util.sleep(sec=1)
 
         # Verify message is displayed after pressing ENTER
         self.chatroom.writeMessage(message, "enter")
-        result_messageDisplayed = self.chatroom.verifyNewChatDisplayed(username, message)       # BUG: Doesn't detect that the empty chat is not displayed
+        result_messageDisplayed = self.chatroom.verifyNewChatDisplayed(username, message)
         self.ts.markFinal("test_submitEmptyMessage", (not result_messageDisplayed),
                           "Empty message is not displayed on the chat box after pressing ENTER")
         self.util.sleep(sec=2)

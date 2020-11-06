@@ -3613,3 +3613,108 @@
 11/06/2020 04:33:36 PM -TestStatus - INFO: ### VERIFICATION SUCCESSFUL :: + The success message is closed successfully
 11/06/2020 04:33:36 PM -TestStatus - INFO: test_logOut ### TEST SUCCESSFUL
 11/06/2020 04:33:36 PM -Util - INFO: Wait :: '2' seconds for 
+11/06/2020 05:19:22 PM -LoginPage - INFO: Element Found with locator: //input[@id='session_username'] locatorType: xpath
+11/06/2020 05:19:22 PM -LoginPage - INFO: Clicked on element with locator: //input[@id='session_username'] locatorType: xpath
+11/06/2020 05:19:22 PM -LoginPage - INFO: Element Found with locator: //input[@id='session_password'] locatorType: xpath
+11/06/2020 05:19:23 PM -LoginPage - INFO: Clicked on element with locator: //input[@id='session_password'] locatorType: xpath
+11/06/2020 05:19:23 PM -LoginPage - INFO: Element Found with locator: //button[@name='button'] locatorType: xpath
+11/06/2020 05:19:23 PM -LoginPage - INFO: Clicked on element with locator: //button[@name='button'] locatorType: xpath
+11/06/2020 05:19:23 PM -ChatroomPage - INFO: Element Found with locator: //i[@class='circular orange coffee icon'] locatorType: xpath
+11/06/2020 05:19:23 PM -ChatroomPage - INFO: Element present with locator: //i[@class='circular orange coffee icon'] locatorType: xpath
+11/06/2020 05:19:23 PM -TestStatus - INFO: ### VERIFICATION SUCCESSFUL :: + Successfully reach the chatroom after logging in
+11/06/2020 05:19:23 PM -Util - INFO: Wait :: '1' seconds for 
+11/06/2020 05:19:24 PM -ChatroomPage - INFO: Element Found with locator: //a[contains(text(),'Chatroom')] locatorType: xpath
+11/06/2020 05:19:24 PM -ChatroomPage - INFO: Clicked on element with locator: //a[contains(text(),'Chatroom')] locatorType: xpath
+11/06/2020 05:19:24 PM -ChatroomPage - INFO: Element Found with locator: //i[@class='circular orange coffee icon'] locatorType: xpath
+11/06/2020 05:19:24 PM -ChatroomPage - INFO: Element present with locator: //i[@class='circular orange coffee icon'] locatorType: xpath
+11/06/2020 05:19:24 PM -TestStatus - INFO: ### VERIFICATION SUCCESSFUL :: + Successfully reach the chatroom after logging in
+11/06/2020 05:19:24 PM -TestStatus - INFO: test_useChatroomNavigationLink ### TEST SUCCESSFUL
+11/06/2020 05:19:24 PM -Util - INFO: Wait :: '2' seconds for 
+11/06/2020 05:19:26 PM -ChatroomPage - INFO: Element Found with locator: //div[@class='ui container']/a[contains(text(),'Messages')] locatorType: xpath
+11/06/2020 05:19:26 PM -ChatroomPage - INFO: Clicked on element with locator: //div[@class='ui container']/a[contains(text(),'Messages')] locatorType: xpath
+11/06/2020 05:19:26 PM -ChatroomPage - INFO: Element not present with locator:  locatorType: xpath
+11/06/2020 05:19:26 PM -TestStatus - ERROR: ### VERIFICATION FAILED :: + Successfully reach the messages page after logging in
+11/06/2020 05:19:27 PM -TestStatus - INFO: Screenshot save to directory: C:\Users\rayad\workspace_python\MessageMe_Test\base\../screenshots/Successfully reach the messages page after logging in.1604701166902.png
+11/06/2020 05:19:27 PM -TestStatus - ERROR: test_useMessagesNavigationLink ### TEST FAILED
+11/06/2020 05:19:27 PM -ChatroomPage - INFO: Element Found with locator: //div[@class='ui inverted vertical menu']//a[contains(text(),'Messages')] locatorType: xpath
+11/06/2020 05:19:27 PM -ChatroomPage - INFO: Clicked on element with locator: //div[@class='ui inverted vertical menu']//a[contains(text(),'Messages')] locatorType: xpath
+11/06/2020 05:19:27 PM -ChatroomPage - INFO: Element not present with locator:  locatorType: xpath
+11/06/2020 05:19:27 PM -TestStatus - ERROR: ### VERIFICATION FAILED :: + Successfully reach the messages page after logging in
+11/06/2020 05:19:27 PM -TestStatus - INFO: Screenshot save to directory: C:\Users\rayad\workspace_python\MessageMe_Test\base\../screenshots/Successfully reach the messages page after logging in.1604701167305.png
+11/06/2020 05:19:27 PM -Util - INFO: Wait :: '1' seconds for 
+11/06/2020 05:19:28 PM -ChatroomPage - INFO: Element Found with locator: //a[contains(text(),'Friends')] locatorType: xpath
+11/06/2020 05:19:28 PM -ChatroomPage - INFO: Clicked on element with locator: //a[contains(text(),'Friends')] locatorType: xpath
+11/06/2020 05:19:28 PM -ChatroomPage - INFO: Element not present with locator:  locatorType: xpath
+11/06/2020 05:19:28 PM -TestStatus - ERROR: ### VERIFICATION FAILED :: + Successfully reach the friends page after logging in
+11/06/2020 05:19:29 PM -TestStatus - INFO: Screenshot save to directory: C:\Users\rayad\workspace_python\MessageMe_Test\base\../screenshots/Successfully reach the friends page after logging in.1604701168707.png
+11/06/2020 05:19:29 PM -Util - INFO: Wait :: '1' seconds for 
+11/06/2020 05:19:30 PM -ChatroomPage - INFO: Element Found with locator: //a[contains(text(),'Home')] locatorType: xpath
+11/06/2020 05:19:30 PM -ChatroomPage - INFO: Clicked on element with locator: //a[contains(text(),'Home')] locatorType: xpath
+11/06/2020 05:19:30 PM -ChatroomPage - INFO: Element Found with locator: //i[@class='circular orange coffee icon'] locatorType: xpath
+11/06/2020 05:19:30 PM -ChatroomPage - INFO: Element present with locator: //i[@class='circular orange coffee icon'] locatorType: xpath
+11/06/2020 05:19:30 PM -TestStatus - INFO: ### VERIFICATION SUCCESSFUL :: + Successfully reach the friends page after logging in
+11/06/2020 05:19:30 PM -TestStatus - ERROR: test_useLinksUnderNavigationMenu ### TEST FAILED
+11/06/2020 05:19:30 PM -ChatroomPage - INFO: Element Found with locator: //input[@id='message_body'] locatorType: xpath
+11/06/2020 05:19:30 PM -ChatroomPage - INFO: Clicked on element with locator: //input[@id='message_body'] locatorType: xpath
+11/06/2020 05:19:30 PM -ChatroomPage - INFO: Element Found with locator: //button[@name='button'] locatorType: xpath
+11/06/2020 05:19:30 PM -ChatroomPage - INFO: Clicked on element with locator: //button[@name='button'] locatorType: xpath
+11/06/2020 05:19:30 PM -ChatroomPage - INFO: Element Found with locator: //div[contains(em/following-sibling::text(), ': hello4169591222') and contains(em, 'test1')] locatorType: xpath
+11/06/2020 05:19:30 PM -ChatroomPage - INFO: Element present with locator: //div[contains(em/following-sibling::text(), ': hello4169591222') and contains(em, 'test1')] locatorType: xpath
+11/06/2020 05:19:30 PM -TestStatus - INFO: ### VERIFICATION SUCCESSFUL :: + The message is displayed on the chat box after clicking submit
+11/06/2020 05:19:30 PM -ChatroomPage - INFO: Element Found with locator: //input[@id='message_body'] locatorType: xpath
+11/06/2020 05:19:30 PM -ChatroomPage - INFO: Pressed ENTER on element with locator: //input[@id='message_body'] locatorType: xpath
+11/06/2020 05:19:30 PM -TestStatus - ERROR: ### VERIFICATION FAILED :: + The chat input field is empty after clicking submit
+11/06/2020 05:19:30 PM -TestStatus - INFO: Screenshot save to directory: C:\Users\rayad\workspace_python\MessageMe_Test\base\../screenshots/The chat input field is empty after clicking submit.1604701170486.png
+11/06/2020 05:19:30 PM -ChatroomPage - INFO: Element Found with locator: //input[@id='message_body'] locatorType: xpath
+11/06/2020 05:19:30 PM -Util - INFO: Wait :: '1' seconds for 
+11/06/2020 05:19:31 PM -ChatroomPage - INFO: Element Found with locator: //input[@id='message_body'] locatorType: xpath
+11/06/2020 05:19:31 PM -ChatroomPage - INFO: Clicked on element with locator: //input[@id='message_body'] locatorType: xpath
+11/06/2020 05:19:31 PM -ChatroomPage - INFO: Element Found with locator: //input[@id='message_body'] locatorType: xpath
+11/06/2020 05:19:31 PM -ChatroomPage - INFO: Pressed ENTER on element with locator: //input[@id='message_body'] locatorType: xpath
+11/06/2020 05:19:32 PM -ChatroomPage - INFO: Element Found with locator: //div[contains(em/following-sibling::text(), ': world6183617734') and contains(em, 'test1')] locatorType: xpath
+11/06/2020 05:19:32 PM -ChatroomPage - INFO: Element present with locator: //div[contains(em/following-sibling::text(), ': world6183617734') and contains(em, 'test1')] locatorType: xpath
+11/06/2020 05:19:32 PM -TestStatus - INFO: ### VERIFICATION SUCCESSFUL :: + The message is displayed on the chat box after pressing enter
+11/06/2020 05:19:32 PM -ChatroomPage - INFO: Element Found with locator: //input[@id='message_body'] locatorType: xpath
+11/06/2020 05:19:32 PM -ChatroomPage - INFO: Pressed ENTER on element with locator: //input[@id='message_body'] locatorType: xpath
+11/06/2020 05:19:32 PM -TestStatus - INFO: ### VERIFICATION SUCCESSFUL :: + The chat input field is empty after pressing ENTER
+11/06/2020 05:19:32 PM -TestStatus - ERROR: test_submitMessageByClickingAndPressingEnter ### TEST FAILED
+11/06/2020 05:19:32 PM -ChatroomPage - INFO: Element Found with locator: //input[@id='message_body'] locatorType: xpath
+11/06/2020 05:19:32 PM -ChatroomPage - INFO: Clicked on element with locator: //input[@id='message_body'] locatorType: xpath
+11/06/2020 05:19:32 PM -ChatroomPage - INFO: Element Found with locator: //button[@name='button'] locatorType: xpath
+11/06/2020 05:19:32 PM -ChatroomPage - INFO: Clicked on element with locator: //button[@name='button'] locatorType: xpath
+11/06/2020 05:19:35 PM -ChatroomPage - INFO: Element not found with locator//div[contains(em/following-sibling::text(), ':    ') and contains(em, 'test1')] locatorType: xpath
+11/06/2020 05:19:35 PM -ChatroomPage - INFO: Element not present with locator: //div[contains(em/following-sibling::text(), ':    ') and contains(em, 'test1')] locatorType: xpath
+11/06/2020 05:19:35 PM -TestStatus - INFO: ### VERIFICATION SUCCESSFUL :: + Empty message is not displayed on the chat box after clicking submit
+11/06/2020 05:19:35 PM -Util - INFO: Wait :: '1' seconds for 
+11/06/2020 05:19:36 PM -ChatroomPage - INFO: Element Found with locator: //input[@id='message_body'] locatorType: xpath
+11/06/2020 05:19:36 PM -ChatroomPage - INFO: Clicked on element with locator: //input[@id='message_body'] locatorType: xpath
+11/06/2020 05:19:36 PM -ChatroomPage - INFO: Element Found with locator: //input[@id='message_body'] locatorType: xpath
+11/06/2020 05:19:36 PM -ChatroomPage - INFO: Pressed ENTER on element with locator: //input[@id='message_body'] locatorType: xpath
+11/06/2020 05:19:39 PM -ChatroomPage - INFO: Element not found with locator//div[contains(em/following-sibling::text(), ':    ') and contains(em, 'test1')] locatorType: xpath
+11/06/2020 05:19:39 PM -ChatroomPage - INFO: Element not present with locator: //div[contains(em/following-sibling::text(), ':    ') and contains(em, 'test1')] locatorType: xpath
+11/06/2020 05:19:39 PM -TestStatus - INFO: ### VERIFICATION SUCCESSFUL :: + Empty message is not displayed on the chat box after pressing ENTER
+11/06/2020 05:19:39 PM -TestStatus - INFO: test_submitEmptyMessage ### TEST SUCCESSFUL
+11/06/2020 05:19:39 PM -Util - INFO: Wait :: '2' seconds for 
+11/06/2020 05:19:41 PM -ChatroomPage - INFO: Element Found with locator: //div[@class='ui dropdown item'] locatorType: xpath
+11/06/2020 05:19:41 PM -ChatroomPage - INFO: Clicked on element with locator: //div[@class='ui dropdown item'] locatorType: xpath
+11/06/2020 05:19:41 PM -ChatroomPage - INFO: Element Found with locator: //div[@class='menu transition visible'] locatorType: xpath
+11/06/2020 05:19:41 PM -ChatroomPage - INFO: Element present with locator: //div[@class='menu transition visible'] locatorType: xpath
+11/06/2020 05:19:41 PM -TestStatus - INFO: ### VERIFICATION SUCCESSFUL :: + Account dropdown opens after click
+11/06/2020 05:19:41 PM -Util - INFO: Wait :: '1' seconds for 
+11/06/2020 05:19:42 PM -ChatroomPage - INFO: Element Found with locator: //a[contains(text(),'Logout')] locatorType: xpath
+11/06/2020 05:19:42 PM -ChatroomPage - INFO: Clicked on element with locator: //a[contains(text(),'Logout')] locatorType: xpath
+11/06/2020 05:19:42 PM -LoginPage - INFO: Element Found with locator: //h1[contains(text(),'Welcome to MessageMe - a complete Chat App')] locatorType: xpath
+11/06/2020 05:19:42 PM -LoginPage - INFO: Element present with locator: //h1[contains(text(),'Welcome to MessageMe - a complete Chat App')] locatorType: xpath
+11/06/2020 05:19:42 PM -TestStatus - INFO: ### VERIFICATION SUCCESSFUL :: + Logout is successful and the user reaches login page
+11/06/2020 05:19:42 PM -Util - INFO: Wait :: '1' seconds for 
+11/06/2020 05:19:43 PM -LoginPage - INFO: Element Found with locator: //div[contains(text(),'You have successfully logged out')] locatorType: xpath
+11/06/2020 05:19:43 PM -LoginPage - INFO: Element present with locator: //div[contains(text(),'You have successfully logged out')] locatorType: xpath
+11/06/2020 05:19:43 PM -TestStatus - INFO: ### VERIFICATION SUCCESSFUL :: + Success message that indicate successful logout is displayed
+11/06/2020 05:19:43 PM -Util - INFO: Wait :: '1' seconds for 
+11/06/2020 05:19:44 PM -LoginPage - INFO: Element Found with locator: //i[@class='close icon'] locatorType: xpath
+11/06/2020 05:19:45 PM -LoginPage - INFO: Clicked on element with locator: //i[@class='close icon'] locatorType: xpath
+11/06/2020 05:19:45 PM -LoginPage - INFO: Element Found with locator: //div[@class='ui success message transition hidden'] locatorType: xpath
+11/06/2020 05:19:45 PM -LoginPage - INFO: Element present with locator: //div[@class='ui success message transition hidden'] locatorType: xpath
+11/06/2020 05:19:45 PM -TestStatus - INFO: ### VERIFICATION SUCCESSFUL :: + The success message is closed successfully
+11/06/2020 05:19:45 PM -TestStatus - INFO: test_logOut ### TEST SUCCESSFUL
+11/06/2020 05:19:45 PM -Util - INFO: Wait :: '2' seconds for 
